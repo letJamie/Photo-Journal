@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7DFE387E2503452E00BB40AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE387D2503452E00BB40AA /* AppDelegate.swift */; };
 		7DFE38802503452E00BB40AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE387F2503452E00BB40AA /* SceneDelegate.swift */; };
-		7DFE38822503452E00BB40AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE38812503452E00BB40AA /* ViewController.swift */; };
 		7DFE38852503452E00BB40AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE38832503452E00BB40AA /* Main.storyboard */; };
 		7DFE38882503452E00BB40AA /* Photo_Journal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE38862503452E00BB40AA /* Photo_Journal.xcdatamodeld */; };
 		7DFE388A2503453100BB40AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE38892503453100BB40AA /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		7DFE387A2503452E00BB40AA /* Photo Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFE387D2503452E00BB40AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFE387F2503452E00BB40AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DFE38812503452E00BB40AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DFE38842503452E00BB40AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFE38872503452E00BB40AA /* Photo_Journal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photo_Journal.xcdatamodel; sourceTree = "<group>"; };
 		7DFE38892503453100BB40AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,14 +62,13 @@
 			children = (
 				7DFE387D2503452E00BB40AA /* AppDelegate.swift */,
 				7DFE387F2503452E00BB40AA /* SceneDelegate.swift */,
-				7DFE38812503452E00BB40AA /* ViewController.swift */,
+				7DFE38962503C37500BB40AA /* CreateViewController.swift */,
+				7DFE38942503C33300BB40AA /* PhotoItemTableViewController.swift */,
 				7DFE38832503452E00BB40AA /* Main.storyboard */,
 				7DFE38892503453100BB40AA /* Assets.xcassets */,
 				7DFE388B2503453100BB40AA /* LaunchScreen.storyboard */,
 				7DFE388E2503453100BB40AA /* Info.plist */,
 				7DFE38862503452E00BB40AA /* Photo_Journal.xcdatamodeld */,
-				7DFE38942503C33300BB40AA /* PhotoItemTableViewController.swift */,
-				7DFE38962503C37500BB40AA /* CreateViewController.swift */,
 			);
 			path = "Photo Journal";
 			sourceTree = "<group>";
@@ -147,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DFE38822503452E00BB40AA /* ViewController.swift in Sources */,
 				7DFE387E2503452E00BB40AA /* AppDelegate.swift in Sources */,
 				7DFE38972503C37500BB40AA /* CreateViewController.swift in Sources */,
 				7DFE38952503C33300BB40AA /* PhotoItemTableViewController.swift in Sources */,
