@@ -53,5 +53,17 @@ class CreateViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     @IBAction func addTapped(_ sender: Any) {
+        
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            
+            let photoUpdateToSave = PhotoUpdate(context: context)
+            photoUpdateToSave.title = titleTextField.text
+            photoUpdateToSave.image = photoImageView.image?.jpegData(compressionQuality: 1.0)
+            (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+        }
+        
+        
+        navigationController?.popViewController(animated: true)
+        
     }
 }
