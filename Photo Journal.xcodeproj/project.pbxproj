@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D01ED702504A7D70008F799 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D01ED6F2504A7D70008F799 /* FullImageViewController.swift */; };
 		7DFE387E2503452E00BB40AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE387D2503452E00BB40AA /* AppDelegate.swift */; };
 		7DFE38802503452E00BB40AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFE387F2503452E00BB40AA /* SceneDelegate.swift */; };
 		7DFE38852503452E00BB40AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFE38832503452E00BB40AA /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D01ED6F2504A7D70008F799 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
 		7DFE387A2503452E00BB40AA /* Photo Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFE387D2503452E00BB40AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFE387F2503452E00BB40AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				7DFE387F2503452E00BB40AA /* SceneDelegate.swift */,
 				7DFE38962503C37500BB40AA /* CreateViewController.swift */,
 				7DFE38942503C33300BB40AA /* PhotoItemTableViewController.swift */,
+				7D01ED6F2504A7D70008F799 /* FullImageViewController.swift */,
 				7DFE38832503452E00BB40AA /* Main.storyboard */,
 				7DFE38892503453100BB40AA /* Assets.xcassets */,
 				7DFE388B2503453100BB40AA /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				7DFE38952503C33300BB40AA /* PhotoItemTableViewController.swift in Sources */,
 				7DFE38882503452E00BB40AA /* Photo_Journal.xcdatamodeld in Sources */,
 				7DFE38802503452E00BB40AA /* SceneDelegate.swift in Sources */,
+				7D01ED702504A7D70008F799 /* FullImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,10 +38,43 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="nOK-Jz-Lce" kind="show" identifier="goToFullImage" id="zaE-jo-LdH"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1H-sX-0mF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1396" y="100"/>
+        </scene>
+        <!--Full Image View Controller-->
+        <scene sceneID="lO7-24-JJQ">
+            <objects>
+                <viewController id="nOK-Jz-Lce" customClass="FullImageViewController" customModule="Photo_Journal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HHq-UE-Yo0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qeh-sj-FkG">
+                                <rect key="frame" x="30" y="118" width="354" height="714"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qeh-sj-FkG" firstAttribute="leading" secondItem="Nge-as-wCq" secondAttribute="leading" constant="30" id="9k4-ho-f3Q"/>
+                            <constraint firstItem="Nge-as-wCq" firstAttribute="trailing" secondItem="Qeh-sj-FkG" secondAttribute="trailing" constant="30" id="PZ4-1i-Uxf"/>
+                            <constraint firstItem="Qeh-sj-FkG" firstAttribute="top" secondItem="Nge-as-wCq" secondAttribute="top" constant="30" id="hcG-HG-zpt"/>
+                            <constraint firstItem="Nge-as-wCq" firstAttribute="bottom" secondItem="Qeh-sj-FkG" secondAttribute="bottom" constant="30" id="yLh-Vv-LF3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nge-as-wCq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="owV-Zw-4ch"/>
+                    <connections>
+                        <outlet property="fullImageView" destination="Qeh-sj-FkG" id="LLB-RD-kmT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eC3-1Q-YwL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1477" y="834"/>
         </scene>
         <!--Create View Controller-->
         <scene sceneID="w8Q-Cq-dRg">
